@@ -1,0 +1,41 @@
+/* Your CSS goes here */
+
+body {
+    background-color: #FFF8DC;
+    font-family: arial, sans-serif;
+    color: saddlebrown;
+}
+
+input, select {
+    width: 200px;
+    height: 25px;
+    background-color: yellow;
+    border: 1px solid orange;
+    margin: 5px 0;
+}
+
+form label {
+display: inline-block;
+width: 100px;
+font-weight: bold;
+}
+
+.description {
+    border: 1px solid orange;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+#main-container{
+   width:30%;
+   margin:0 auto;
+}
+
+#submit-container {
+    padding-left: 25px;
+    text-align: center; 
+}
+
+#last-name {
+    font-weight: bold;
+}

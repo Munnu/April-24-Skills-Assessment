@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <title>Skills-HTML-CSS</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<!--
+    First Name
+    Last Name
+    Salary Requirements (numerical)
+    Dropdown:
+        Software Engineer
+        QA Engineer
+        Product Manager
+    Submit button
+-->
+<!-- your html goes here -->
+    <div id="main-container">
+        <h1>Job Application Form</h1>
+        <p class="description">Please input your job requirements in the form below for placement.</p>
+        <form action="/application" method="POST">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" value="first-name" name="first-name" placeholder="First Name">
+            <br>
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" value="last-name" placeholder="Last Name">
+            <br>
+            <label for="salary">Salary:</label>
+            <input type="number" id="salary" value="salary" placeholder="Salary">
+            <br>
+            <label for="job-titles">Job Titles:</label>
+            <select id="job-titles" name="job-title">
+                <option value="Software Engineer">Software Engineer</option>
+                <option value="QA Engineer">QA Engineer</option>
+                <option value="Product Manager">Product Manager</option>
+            </select>
+            <br>
+            <div id="submit-container">
+                <input type="submit" name="submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
